@@ -1,0 +1,14 @@
+[package]
+name = "clypperlib"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+curl = "0.4.44"
+indicatif = "0.17.6"
+regex = "1.9.3"
+console = { version = "0.15", default-features = false, features = ["ansi-parsing"] }
+numtoa = "0.2.4"
+chrono = "0.4.26"

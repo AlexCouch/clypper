@@ -1,0 +1,6 @@
+if [ -z "$FFMPEG_PKG_CONFIG_PATH" ]
+then
+    export FFMPEG_PKG_CONFIG_PATH=~/projects/rsmpeg/tmp/ffmpeg_build/lib/pkgconfig
+fi
+
+cargo build
